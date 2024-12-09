@@ -1,0 +1,44 @@
+/* Montserrat family */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/MontserratLight-6YemM.otf') format('opentype');
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/MontserratSemibold-8M8PB.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/MontserratRegular-RpK6l.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/MontserratItalic-5187x.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Bebas Neue individual */
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../assets/fonts/individual/BebasNeue.ttf') format('opentype');
+    font-weight: normal;
+    font-style: bold;
+}
+
+/* Larke Sans individual */
+@font-face {
+    font-family: 'Larke Sans';
+    src: url('../assets/fonts/individual/LSBold.ttf') format('opentype');
+    font-weight: normal;
+    font-style: bold;
+}

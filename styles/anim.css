@@ -1,0 +1,52 @@
+a.unselected {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: "Montserrat";
+    text-decoration: none;
+    font-size: 15px;
+    padding: 14px 16px;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+a.unselected-lead {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: "Larke Sans";
+    text-decoration: none;
+    font-size: 36px;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 24px;
+}
+
+a.selected {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: "Montserrat";
+    text-decoration: none;
+    font-size: 16.25px;
+    padding: 14px 16px;
+    opacity: .7;
+}
+
+a.unselected:hover {
+    opacity: .7;
+    font-size: 16.25px;
+}
+
+a.unselected-lead:hover {
+    opacity: .7;
+    font-size: 38.25px;
+}
+
+.image-container:hover img {
+    transform: scale(1.05);
+}
+
+.image-container:hover .overlay {
+    opacity: 0.95;
+}
